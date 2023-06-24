@@ -24,6 +24,7 @@ let e=new Promise(resolve=>{
 		resolve("5")
 	}, 5000)
 })
+promises.push([a, b, c, d, e])
 let x=Promise.any([a, b, c, d, e])
 x.then((data)=>{
 	const element=document.getElementById("output")
