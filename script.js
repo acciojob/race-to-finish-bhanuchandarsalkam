@@ -1,4 +1,4 @@
-window.Promises = [];
+window.promises = [];
 let a=new Promise(resolve=>{
 	setTimeout(()=>{
 		resolve("a")
